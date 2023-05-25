@@ -1,0 +1,83 @@
+  h1 {
+    color: #4c4141;
+      font-size: 36px;
+      font-style:oblique;
+      
+  }
+  h3 {
+    color: #ffcc66;
+    font-size: 26px;
+    font-style:oblique;
+
+ }
+
+ p {
+  color: #70f312;
+  display: flex;
+  justify-content: center;
+  font-style:oblique;
+
+}
+
+
+  .intro{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header{
+   
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .grid-left{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+  }
+
+  .footer{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .grid{
+    display: flex;
+    
+    margin-top: 1rem;
+   
+    
+    
+    justify-content: center;
+  }
+  
+
+  
+  img{
+    border-radius: 6%;
+  }
+
+  .item{
+   
+    border:solid;
+    border-radius: 6%;
+    
+  }
+
+  
+  body {
+    background-image: url('game.png');
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: 100%,100%;
+
+}
+
+ #page-2{
+  background-image: url('bob.png');
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: 100%,100%;
+ }
